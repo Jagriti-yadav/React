@@ -1,11 +1,11 @@
 # React
-React Learning Projects
+# React Learning Projects
 
 This repository showcases my React learning journey, where I have built multiple small projects and UI-based applications to strengthen my understanding of core React concepts and modern front-end development practices.
 
 The repository reflects hands-on learning, clean project organization, and consistent practice.
 
-📌 Overview
+## 📌 Overview
 
 Focused on mastering React fundamentals
 
@@ -15,7 +15,7 @@ Each folder represents a separate learning module or mini project
 
 Emphasis on component-based architecture and reusability
 
-🧠 Concepts Covered
+## 🧠 Concepts Covered
 
 JSX and component structure
 
@@ -31,7 +31,7 @@ Project structuring in React
 
 Basic styling using CSS and Bootstrap
 
-📁 Repository Structure
+## 📁 Repository Structure
 React/
 │
 ├── 01-bootstrap-basics
@@ -47,23 +47,23 @@ React/
 
 Each directory contains an independent React project, created to practice a specific concept.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-React
+- React
 
-JavaScript (ES6+)
+- JavaScript (ES6+)
 
-HTML5
+- HTML5
 
-CSS3
+- CSS3
 
-Bootstrap
+- Bootstrap
 
-Vite
+- Vite
 
-Git & GitHub
+- Git & GitHub
 
-▶️ Running the Projects Locally
+## ▶️ Running the Projects Locally
 
 To run any project locally:
 
@@ -74,7 +74,7 @@ npm run dev
 node_modules are excluded from the repository.
 Please install dependencies before running the project.
 
-🎯 Purpose of This Repository
+## 🎯 Purpose of This Repository
 
 Strengthen React fundamentals through practice
 
@@ -84,13 +84,13 @@ Prepare for front-end / MERN stack interviews
 
 Demonstrate consistent learning and project work
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Jagriti Yadav
 Aspiring Front-End / MERN Stack Developer
 Passionate about building clean and scalable user interfaces.
 
-🚀 Future Plans
+## 🚀 Future Plans
 
 Add more React projects
 
