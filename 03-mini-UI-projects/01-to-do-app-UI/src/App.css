@@ -1,0 +1,15 @@
+.heading{
+  text-align:center;
+  font-weight:bold;
+  font-size:50px;
+  margin:20px;
+}
+.container{
+  margin-bottom:10px;
+}
+input{
+  width:100%;
+}
+button{
+  min-width:82px;
+}

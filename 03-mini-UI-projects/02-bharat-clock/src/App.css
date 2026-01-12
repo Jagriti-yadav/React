@@ -1,0 +1,15 @@
+*{
+  text-align:center;
+}
+body{
+  height:100vh;
+  display:flex;
+  text-align:center;
+  justify-content : center;
+  align-items:center;
+}
+.main-container{
+  padding:20px;
+  border-radius:30px;
+  box-shadow :3px 3px 30px grey;
+}
