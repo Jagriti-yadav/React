@@ -45,7 +45,7 @@ React/
 ├── 05-conditional-rendering
 ├── 06-props
 
-
+```
 
 Each directory contains an independent React project, created to practice a specific concept.
 
