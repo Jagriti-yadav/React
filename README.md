@@ -67,8 +67,10 @@ Each directory contains an independent React project, created to practice a spec
 
 To run any project locally:
 
+```bash
 npm install
 npm run dev
+```
 
 
 node_modules are excluded from the repository.
