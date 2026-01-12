@@ -32,6 +32,7 @@ Project structuring in React
 Basic styling using CSS and Bootstrap
 
 ## 📁 Repository Structure
+```text
 React/
 │
 ├── 01-bootstrap-basics
@@ -43,6 +44,7 @@ React/
 ├── 04-map-and-list
 ├── 05-conditional-rendering
 ├── 06-props
+```
 
 
 Each directory contains an independent React project, created to practice a specific concept.
