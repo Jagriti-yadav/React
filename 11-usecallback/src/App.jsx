@@ -1,19 +1,31 @@
-import React,{useState} from 'react'
-import ChildComponent from './components/ChildComponent'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-  const handleClick = () =>{
-    setCount(count+1);
-  }
+//USE CALLBACK HOOK
+// import React,{useState} from 'react'
+// import ChildComponent from './components/ChildComponent'
+// import './App.css'
 
-  return (
-    <>
-    <button onClick={handleClick}>Increment:{count}</button>
-    <ChildComponent count={count}/>
-    </>
-  )
-}
+// function App() {
+//   const [count, setCount] = useState(0)
+//   const handleClick = () =>{
+//     setCount(count+1);
+//   }
 
-export default App
+//   return (
+//     <>
+//     <button onClick={handleClick}>Increment:{count}</button>
+//     <ChildComponent count={count}/>
+//     </>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+
+
+
+
+
