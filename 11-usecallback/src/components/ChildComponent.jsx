@@ -1,9 +1,12 @@
 import React from 'react'
 
-const ChildComponent = React.memo(({ count }) => {
+const ChildComponent = React.memo((props) => {
+  
+    console.log('child component clicked');
+  
   return(
     <div>
-      <button>Child component : {count}</button>
+      <button onClick={props.handleClick}>{props.buttonName}</button>
     </div>
   )
 })
