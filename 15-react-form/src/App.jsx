@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 function App(){
+  const [submittedData, setSubmittedData] = useState(null);
   const [formdata, setFormdata] = useState({
     name:"",
     email:"",
@@ -39,7 +40,7 @@ const handleChange = (e) => {
   };
     const handleSubmit = (e) => {
     e.preventDefault();
-
+    setSubmittedData(formdata);
     console.log("Reg Data:");
     console.log(formdata);
 
@@ -81,6 +82,7 @@ const handleChange = (e) => {
     });
   };
   return (
+    <>
     <form onSubmit={handleSubmit}>
       <h2>Registration form</h2>
       <div>
@@ -193,6 +195,29 @@ const handleChange = (e) => {
       <br/>
       <button type='reset' onClick={handleReset}>Reset</button>
     </form>
+
+    {submittedData && (
+  <div>
+    <h2>Submitted Form Data</h2>
+
+    <p>Name: {submittedData.name}</p>
+    <p>Email: {submittedData.email}</p>
+    <p>Password: {submittedData.password}</p>
+    <p>Gender: {submittedData.gender}</p>
+    <p>Age: {submittedData.age}</p>
+    <p>DOB: {submittedData.DOB}</p>
+    <p>Course: {submittedData.course}</p>
+    <p>Skills: {submittedData.skills.join(", ")}</p>
+    <p>Country: {submittedData.country}</p>
+    <p>Address: {submittedData.address}</p>
+    <p>Time: {submittedData.time}</p>
+    <p>Experience: {submittedData.experience} years</p>
+    <p>Terms Accepted: {submittedData.terms ? "Yes" : "No"}</p>
+    <p>Photo: {submittedData.photo?.name || "No file selected"}</p>
+  </div>
+)}
+</>
+   
   )
 }
 export default App;
